@@ -1,0 +1,273 @@
+@import url(../scss/nullstyle.css);
+@import url(../scss/fonts.css);
+$prymary_color: #070707;
+
+[class*="__container"]{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+body{
+    color: $prymary_color;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.main {
+    flex: 1 1 auto;
+}
+// .header {
+//     position: absolute;
+//     width: 100%;
+//     left: 0;
+//     top: 0;
+// }
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    min-height: 88px;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+    li{
+        font-family: Gilroy;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #828282;
+    }
+}
+/*----------------------------------*/
+.section_1 {
+    background-color: #fff;
+    min-height: 680px;
+}
+.main__denis {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 139px;
+}
+.denis__title {
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    font-weight: bold;
+}
+.denis__text {
+    font-family: Gilroy-Medium;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.denis__ru-eng {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-family: Gilroy-Bold;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+.ru-eng__links{
+    color: #000;
+}
+.main__image{
+    margin: 50px 0 0 0;
+    
+    img{
+        max-width: 100%;
+        background-repeat: no-repeat;
+    }
+}
+/*----------------------------------*/
+.section_2 {
+    min-height: 506px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__about-me {
+    text-align: center;
+}
+.about-me__title {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 18px;
+}
+.about-me__text {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    & p:not(:last-child){
+        margin-bottom: 22px;
+    }
+}
+.section_3 {
+    min-height: 610px;
+    padding: 91px 0 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills__title {
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: bold;
+}
+.skills__text {
+    text-align: center;
+    padding: 69px 0 84px 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+.skils-list__list{
+    display: flex;
+    justify-content: space-between;
+}
+.skils-list__item {
+    min-height: 206px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/*----------------------------------*/
+
+.section_4 {
+    background-color: #F6F6F6;
+    padding: 113px 0 96px 0;
+}
+.portfolio__container{
+    max-width: 936px;
+    margin: 0 auto;
+}
+.main__portfolio {
+}
+
+.portfolio {
+}
+.portfolio__title {
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.portfolio__section:not(:last-child){
+    margin-bottom: 99px;
+}
+.portfolio__image {
+    img{
+        max-width: 100%;
+    }
+    width: 100%;
+}
+.portfolio__sub-text {
+    padding: 45px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.portfolio__sub-text:last-child{
+    padding: 45px 0 0 0;
+}
+
+/*----------------------------------*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 114px 0 123px 0;
+}
+.footer__container {
+    text-align: center;
+    max-width: 303px;
+}
+.contacts__title {
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: bold;
+}
+.contacts__text {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.contacts__button {
+    display: inline-block;
+    color: #fff;
+    background-color: #070707;
+    padding: 13px 30px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.messenger__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 87px 0 45px 0;
+}
+.footer__sub-text {
+    display: inline-block;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #828282;
+}
+
+@media(max-width: 940px){
+    .header{
+        display: none;
+    }
+    // .main__denis{
+    //     display: inline-block;
+    // }
+    .wrapper{
+        padding: 65px 30px 90px 30px;
+    }
+    .section_4{
+        padding: 81px 0;
+    }
+    .portfolio__sub-text{
+        padding: 35px 0 0 0;
+    }
+    .skils-list__list{
+        flex-direction: column;
+    }
+    .skills-list__item{
+        padding: 82px 0;
+    }
+    .footer{
+        padding: 0;
+    }
+}
+
+

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../fonts/gilroy-bold.ttf) format("ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(../fonts/gilroy-medium.ttf) format("ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
